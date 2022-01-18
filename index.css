@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #747474;
+}
+
+.container-header a img{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.container-header nav ul li{
+    padding: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+.container-header nav ul li a{
+    text-decoration: none;
+    color: black;
+}

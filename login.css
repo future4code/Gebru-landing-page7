@@ -1,41 +1,50 @@
-.container-login{
+main {
+    text-align: center;
+    margin: 15vh
+}
+
+.container-login {
     max-width: 400px;
     margin: 10vh auto;
     box-shadow: 0 4px 8px grey;
     padding: 20px;
 }
-.container-login h2{
+
+.container-login h2 {
     font-size: 50px;
     text-align: center;
-    
 }
-.container-login label{
+
+.container-login label {
     font-size: 20px;
 }
 
-input{
+input {
     width: 100%;
     margin: 10px 0;
     font-size: 20px;
 }
-button{
+
+button {
     width: 100%;
     color: black;
     background-color: #FF5C5C;
     margin: 10px 0;
     font-size: 25px;
 }
-.a-left{
+
+.a-left {
     display: inline;
 }
-.a-right{
+
+.a-right {
     display: inline;
     text-align: right;
     margin-left: 100px;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
-    width: 100%;    
+    width: 100%;
 }

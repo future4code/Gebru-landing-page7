@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 255, 223)
+  }
+  
+  
+  .conteudo{
+    display: flex;
+    justify-content:center;
+    padding: auto;
+    height:300px;
+    text-align: left;
+    margin: 2em;
+  
+  
+  }
+  
+  .section{
+  background-color: #6592c9;
+  height:40vh;
+  text-align: center ;
+  margin: 1em auto 2em;
+  }
+  
+    
+  
+    .titulo H3{
+      color:black;
+      font-weight: normal;
+      line-height: 38px;
+    }
+    .titulo H1{
+      color: white;
+      font-size: 38px;
+      
+    }
+  
+  
+  .carros {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carro {
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+    text-decoration: none;
+    color: #3d3d3d;
+  }
+  
+  .carro a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .carro a p {
+    text-align: center;
+  }
+  .carro img{
+    width: 80px;
+    height: 80px;
+  
+  }
+  
+  
+  .carro:last-child {
+    margin-right: 0px;
+  }
+  
+  .tamanho-maximo-container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .secao-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  

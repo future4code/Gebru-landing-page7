@@ -28,6 +28,46 @@
     color: black;
 }
 
+.conteiner-principal{
+    background-image: url("img/background.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-principal div{
+    background-color: rgba(90, 86, 86, 0.5) ;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-apresentação{
+    text-align: center;
+    margin: 80px auto;
+}
+.container-carros{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;   
+}
+.container-carros img{
+    height: 250px;   
+}
+.container-carros figure{
+    text-align: center;
+    border-bottom: solid #FF5C5C;
+    padding: 10px;
+}
+.container-rota div{
+    text-align: center;
+    margin: 80px auto;
+}
+  
+  
+  
+
 .container-footer {
     display: flex;
     justify-content: center;

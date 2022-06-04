@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    max-width: 100vw;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #747474;
+}
+
+.container-header a img {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.container-header nav ul li {
+    padding: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.container-header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner-principal {
+    background-image: url("img/background.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-principal div {
+    background-color: rgba(90, 86, 86, 0.5);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-apresentação {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.container-carros {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.container-carros img {
+    height: 250px;
+}
+
+.container-carros figure {
+    text-align: center;
+    border-bottom: solid #FF5C5C;
+    padding: 10px;
+}
+
+.container-rota div {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5C5C;
+    height: 10vh;
+    width: 100vw;
+    min-height: 10vh;
+    min-width: 100vw;
+    max-height: 10vh;
+    max-width: 100vw;
+}
+
+.container-footer p {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 5vw;
+    max-height: 5vh;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container-footer p a img {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        max-width: 100vw;
+    }
+    .container-carros {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+    }
+    .container-carros figure img {
+        width: 97vw;
+    }
+    .container-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF5C5C;
+        height: 15vh;
+        width: 100vw;
+        min-height: 15vh;
+        min-width: 100vw;
+        max-height: 15vh;
+        max-width: 100vw;
+    }
+    .container-footer p {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        max-height: 10vh;
+        margin-left: 10vw;
+    }
+    .container-footer p a img {
+        max-width: 10vw;
+        max-height: 10vh;
+    }
+    .container-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #747474;
+    }
+    .container-header a img {
+        width: 35vw;
+        margin-left: 5vw;
+    }
+    .container-header nav ul li {
+        padding: 0px;
+        display: inline;
+        margin-right: 0px;
+        margin: 1vw
+    }
+    .container-header nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+}
